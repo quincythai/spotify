@@ -1,8 +1,13 @@
+"use client";
+
+// import { useEffect, useState } from "react";
 import IdeaCard from "@/components/IdeaCard";
 import LoginButton from "@/components/LoginButton";
 import { Lato, Poppins } from "next/font/google";
+// import Image from "next/image";
 
 // need to specify weight because not variable font
+// TODO: add font to theme.
 const lato = Lato({
   weight: "400",
   subsets: ["latin"],
